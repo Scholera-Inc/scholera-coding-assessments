@@ -1,0 +1,13 @@
+assessments/
+
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+.env
+.env.local
+.env.*.local
+
+node_modules/
