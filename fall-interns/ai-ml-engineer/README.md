@@ -13,8 +13,7 @@ unreasonable standard.**
 |---|---|
 | **Role** | AI/ML Intern |
 | **Organisation** | Scholera |
-| **Released** | `[DD MMM YYYY]` |
-| **Due** | `[DD MMM YYYY]`, 23:59 IST |
+| **Due** | See the email that sent you this assignment |
 | **Effort** | ~10 days, part-time |
 | **Version** | 1.0 |
 
@@ -410,9 +409,9 @@ layer, with its own error states, undo support and keyboard access.
 > the architecture, and make a live change we ask for. **Code you cannot explain is worth less
 > than code you did not write.**
 
-**Getting stuck.** If you are blocked on API credits, hardware, or a stylus for testing, email
-us — we would rather help than read a submission quietly compromised by a solvable constraint.
-Where this document is ambiguous, ask; we answer publicly to all candidates.
+**Getting stuck.** If you are blocked on API credits, hardware, or a stylus for testing, reply to the email that sent you this assignment, or write to **proscio@scholera-inc.com**.
+We would rather help than read a submission quietly compromised by a solvable constraint. Where
+this document is ambiguous, ask; we answer publicly to all candidates.
 
 ---
 
@@ -455,7 +454,7 @@ Where this document is ambiguous, ask; we answer publicly to all candidates.
 
 | Item | Contents |
 |---|---|
-| **1 · repository** | Public, or private with `[REVIEWER-HANDLES]` invited. Full history. |
+| **1 · repository** | Public. If it must be private, email us and we'll send you the accounts to invite. Full history either way. |
 | **2 · `README.md`** | Setup in ≤3 commands, architecture diagram, your context-extraction strategy, your declared latency budget, measured interaction frame timing, known limitations. *Limitations you name yourself are never held against you.* |
 | **3 · `METRICS.md`** | Trace schema, segment definitions, image-token estimator and its validated error, rate table with source and date, KPI formulas, panel screenshot. |
 | **4 · `REPORT.md`** | The experiment: protocol, arms, p50/p95 tables, ≥1 chart, the two optimisations with before/after deltas, recommendation and trade-off. |
@@ -468,12 +467,10 @@ Where this document is ambiguous, ask; we answer publicly to all candidates.
 
 ## 10 · Mode of submission
 
-*One email, one form, one deadline. Follow the format exactly — it is the first thing we check.*
+*One email. Follow the format exactly — it is the first thing we check.*
 
-**Step 1 — Submission form.** Complete the intake form at `[FORM URL]`. It captures your
-details, links and declarations, and is what actually registers your submission.
-
-**Step 2 — Email.** Send one email to `[SUBMISSIONS@COMPANY.COM]` with:
+**Step 1 — Email.** Send one email to **proscio@scholera-inc.com** — or simply reply to the email that sent you
+this assignment — with:
 
 | | |
 |---|---|
@@ -481,14 +478,14 @@ details, links and declarations, and is what actually registers your submission.
 | **Body** | Repository link · demo video link · the model and provider you used · your three headline numbers (p50 e2e, p95 e2e, CPAD) · and one short paragraph: *"With two more weeks, here is what I would build next and why."* Keep the whole email under 250 words. |
 | **Attachments** | None. Links only. **Zipped repositories will not be reviewed.** |
 
-> ### Deadline & late policy
+> ### Deadline
 >
-> `[DD MMM YYYY]`, 23:59 IST. The commit timestamp at the deadline is what we review — later
-> commits are ignored, so **tag your submission** (`git tag submission`). Up to 48 hours late
-> costs 10% per started day. Beyond 48 hours we cannot accept it. If something serious happens
-> in your life, email us before the deadline; we are reasonable people and we will work with you.
+> Your deadline is in the email that sent you this assignment. The commit timestamp at that
+> point is what we review — later commits are ignored, so **tag your submission**
+> (`git tag submission`). If something serious happens in your life, tell us before the
+> deadline rather than after; we are reasonable people and we will work with you.
 
-**Step 3 — The review call.** Shortlisted candidates get a **45-minute call** within a week of
+**Step 2 — The review call.** Shortlisted candidates get a **45-minute call** within a week of
 the deadline: a live demo by you (10 min), a code walkthrough where **we** pick the files
 (20 min), one small live change we specify (10 min), and your questions for us (5 min). Prepare
 to defend your **context-extraction strategy** and your **experiment's conclusion** — those are
@@ -528,7 +525,7 @@ No. Prompt design is part of context extraction, which is part of the assessment
 and explain the reasoning in your README.
 
 **What if I run out of API credits?**
-Email us before you are blocked. A small local multimodal model is also a perfectly acceptable
+Get in touch before you are blocked. A small local multimodal model is also a perfectly acceptable
 path — and it makes for a more interesting Section 5 experiment than most.
 
 **Do I need a stylus or tablet?**
@@ -555,6 +552,6 @@ Yes, and it is genuinely a good signal. Tag the commit and send the email whenev
 > us something true about latency and cost, than a feature list we cannot verify. Build the small
 > thing. Measure it honestly. Tell us what you found — including what didn't work.
 
-Questions: `[CONTACT@COMPANY.COM]` · Assignment v1.0 · Reference project:
+Questions: **proscio@scholera-inc.com** · Assignment v1.0 · Reference project:
 [github.com/penecho/penecho](https://github.com/penecho/penecho) (AGPL-3.0), used here for study
 and inspiration only; Scholera is not affiliated with it.

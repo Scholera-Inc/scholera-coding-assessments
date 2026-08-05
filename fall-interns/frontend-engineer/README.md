@@ -149,7 +149,8 @@ code you did not write.**
 4. **A demo video, 3 minutes maximum.** Unlisted link. Show the thing working. Don't narrate
    your setup. Production value is not scored.
 
-Email us the repo link. Check the video opens in a private browser window.
+Send the repo link to **proscio@scholera-inc.com**, or reply to the email that sent you this assignment.
+Check the video opens in a private browser window.
 
 ---
 
@@ -165,7 +166,7 @@ ask you to make one small change while we watch. Then your questions for us.
 If something in this document is ambiguous, that is usually deliberate — make a call and write
 down why in your README.
 
-If something is actually broken, or you're blocked on hardware or setup, **email us**. We would
+If something is actually broken, or you're blocked on hardware or setup, reply to the email that sent you this assignment, or write to **proscio@scholera-inc.com**. We would
 much rather help than read a submission quietly compromised by a problem we could have fixed in
 five minutes.
 

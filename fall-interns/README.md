@@ -21,7 +21,8 @@ and that note is read carefully. In the review call you'll need to explain your 
 **Some ambiguity is deliberate.** Where an assignment doesn't tell you how to do something, that
 is usually the part we're most interested in. Make a decision, write down why, and move on.
 
-**If something is broken or you're blocked on setup, get in touch.** Environment problems are
+**If something is broken or you're blocked on setup, get in touch** — reply to the email that
+sent you this assignment, or write to **proscio@scholera-inc.com**. Environment problems are
 our fault, not a test, and they shouldn't cost you any of your time budget.
 
 > This repository is read-only. **Do not push your work here** — create a brand new repository
