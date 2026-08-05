@@ -397,6 +397,31 @@ layer, with its own error states, undo support and keyboard access.
 | **Git history** | Incremental, readable commits. A single "initial commit" containing everything is treated as a provenance red flag and will be questioned in the review call. |
 | **Privacy** | Traces must never contain credentials. If your traces include canvas imagery, that must be **off by default** and documented. |
 
+> ### Model access, and what it will cost you
+>
+> You supply your own model access. Three routes, all fine by us:
+>
+> **A paid API.** The most direct. Section 5's experiment needs at least 135 requests, the two
+> optimisations are measured the same way, and development adds more on top — most submissions
+> land somewhere between 300 and 600 calls. At the per-request cost in the example trace above,
+> that is roughly **$10–20 in total**.
+>
+> **A free tier.** Google AI Studio offers one, and Gemini is multimodal. Check the current
+> rate limits before you plan your experiment: interleaved arms across 135+ requests simply take
+> longer when you are throttled. That is a scheduling problem, not a blocker — plan for it.
+>
+> **A local multimodal model.** Costs nothing, and it makes for a more interesting Section 5
+> than most, because your latency profile looks completely different once the network is gone.
+>
+> **If you pay nothing, you still report cost.** Section 5's KPIs are cost-based, so build your
+> rate table from a provider's published prices and compute what the run *would* have cost —
+> saying plainly in `METRICS.md` that the figures are notional, and against which model. A local
+> model can be priced the same way, against whichever hosted model you would otherwise have used.
+> **Do not skip the cost work because your bill is zero.** The accounting is the assessed part,
+> not the spending.
+>
+> If cost is a problem at all, tell us before it blocks you.
+
 > ### On AI coding assistants
 >
 > **Use them.** We do, and we would find it strange if you didn't. But two conditions apply,

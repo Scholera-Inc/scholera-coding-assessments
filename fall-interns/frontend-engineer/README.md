@@ -75,12 +75,19 @@ data/
   conversation-empty.json   A student who has never asked anything
   mock-stream.mjs           A fake version of our streaming endpoint
   responses.json            The answers it plays back
+  lectures/                 The three lectures this course is made of
 ```
 
 **`conversation.json`** is a real-shaped chat between a student and the tutor. The messages
 between them cover what you'll need to display: bold text, code, a table, maths, and
 **citations** — the lecture and slide each answer came from. Those citations are what make this
 a tutor rather than a chatbot, so they're worth your attention.
+
+**`lectures/`** holds the three lecture decks the tutor draws on — slides with bullets, the
+professor's speaker notes, LaTeX formulas, and figures described in words. **Every citation in
+the data points at a real slide in here**, so an answer can be traced back to the exact thing
+the professor said. What you do with that is one of the more interesting decisions in this
+assignment, and you are not obliged to do anything with it at all.
 
 **`mock-stream.mjs`** pretends to be our streaming endpoint. Answers arrive a few characters at
 a time, the way they do in any AI product, and it behaves the same way every run. Open the file
