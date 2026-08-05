@@ -461,8 +461,51 @@ this document is ambiguous, ask; we answer publicly to all candidates.
 | **5 · `IDEAS.md`** | 8–12 features to the Section 6 template, scoring, and the selection argument. |
 | **6 · `traces/`** | ≥50 real, redacted JSONL trace lines, plus the five benchmark canvas files. |
 | **7 · attribution** | `ATTRIBUTION.md` and `AI_USAGE.md`. |
-| **8 · demo video** | Maximum 3 minutes, unlisted link. Show the core loop end to end, the metrics panel live, and your one feature. Do not narrate your setup process. Screen recording with voice is fine; production value is not scored. |
+| **8 · video** | You, presenting the project. 5–8 minutes, unlisted link. See below for what to cover. |
 
+---
+
+## 09b · The video — please take this seriously
+
+Every candidate records one, whatever role they applied for. It is the fastest way for us to
+understand not just what you built but how you think about it, and it is the part of your
+submission we spend the most time with.
+
+**Length: 5–8 minutes.** Unlisted link — Loom, an unlisted YouTube video, Drive, anything.
+**Open it in a private browser window and check it plays** before you send it. A link we can't
+open is the single most common reason a good submission stalls.
+
+**Please appear on camera**, at least to introduce yourself. We are not scoring presentation
+skills or production value — a webcam and a screen recording is exactly right, and a rough
+single take is completely fine. We would simply rather meet you than watch an anonymous screen.
+
+### What to cover
+
+In whatever order suits your project:
+
+1. **Who you are.** Thirty seconds. Your name, where you're studying, what you're interested in.
+2. **What you built, and why that.** The assignment deliberately left room for choices. Tell us
+   the ones you made and the reasoning behind them.
+3. **Show it actually working.** A real walkthrough of the running canvas and the metrics panel
+   live — not slides, and not a tour of your source files.
+4. **Show something that isn't perfect.** An edge case, an error state, a corner you didn't
+   finish. Every real project has them, and we trust a demo more when it includes one.
+5. **The hardest decision you made.** Your context-extraction strategy is the obvious candidate:
+   what you send to the model, and why that and not more or less.
+6. **Where the AI tools helped, and where they were wrong.** Same ground as your `AI_USAGE.md`,
+   but say it out loud — the specific thing a tool got wrong and how you caught it.
+7. **Your experiment's conclusion**, and what you'd do next with another week.
+
+### What we're listening for
+
+Whether you understand your own work. Whether you can explain a technical decision to someone
+who wasn't in your head when you made it. Whether you know where your project is weak.
+
+**Being honest about a limitation always reads better than glossing over it.** If something is
+broken, show us and tell us why — a candidate who says "this falls over on long inputs and here
+is what I'd change" is telling us far more than one whose demo only ever walks the happy path.
+
+Don't script it word for word. We would rather hear you think.
 ---
 
 ## 10 · Mode of submission

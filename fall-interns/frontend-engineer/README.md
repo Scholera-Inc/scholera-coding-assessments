@@ -146,12 +146,54 @@ code you did not write.**
    deliberately left out, and what's still broken. Limitations you name yourself are never held
    against you.
 3. **`AI_USAGE.md`** — see above.
-4. **A demo video, 3 minutes maximum.** Unlisted link. Show the thing working. Don't narrate
-   your setup. Production value is not scored.
+4. **A video of you presenting the project** — see below.
 
 Send the repo link to **proscio@scholera-inc.com**, or reply to the email that sent you this assignment.
 Check the video opens in a private browser window.
 
+---
+
+## The video — please take this seriously
+
+Every candidate records one, whatever role they applied for. It is the fastest way for us to
+understand not just what you built but how you think about it, and it is the part of your
+submission we spend the most time with.
+
+**Length: 5–8 minutes.** Unlisted link — Loom, an unlisted YouTube video, Drive, anything.
+**Open it in a private browser window and check it plays** before you send it. A link we can't
+open is the single most common reason a good submission stalls.
+
+**Please appear on camera**, at least to introduce yourself. We are not scoring presentation
+skills or production value — a webcam and a screen recording is exactly right, and a rough
+single take is completely fine. We would simply rather meet you than watch an anonymous screen.
+
+### What to cover
+
+In whatever order suits your project:
+
+1. **Who you are.** Thirty seconds. Your name, where you're studying, what you're interested in.
+2. **What you built, and why that.** The assignment deliberately left room for choices. Tell us
+   the ones you made and the reasoning behind them.
+3. **Show it actually working.** A real walkthrough of the running thing, not slides and not a
+   tour of your source files.
+4. **Show something that isn't perfect.** An edge case, an error state, a corner you didn't
+   finish. Every real project has them, and we trust a demo more when it includes one.
+5. **The hardest decision you made.** What you were choosing between, what you picked, and what
+   you gave up to get it.
+6. **Where the AI tools helped, and where they were wrong.** Same ground as your `AI_USAGE.md`,
+   but say it out loud — the specific thing a tool got wrong and how you caught it.
+7. **What you'd do next** with another week, and why that would be the right next thing.
+
+### What we're listening for
+
+Whether you understand your own work. Whether you can explain a technical decision to someone
+who wasn't in your head when you made it. Whether you know where your project is weak.
+
+**Being honest about a limitation always reads better than glossing over it.** If something is
+broken, show us and tell us why — a candidate who says "this falls over on long inputs and here
+is what I'd change" is telling us far more than one whose demo only ever walks the happy path.
+
+Don't script it word for word. We would rather hear you think.
 ---
 
 ## The review call
