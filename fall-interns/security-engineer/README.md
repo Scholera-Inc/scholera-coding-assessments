@@ -244,6 +244,8 @@ to demonstrate one of your findings live, then talk through how you'd have detec
 If setup won't work, reply to the email that sent you this assignment, or write to **proscio@scholera-inc.com** —
 that's our problem, not part of the test.
 
+**Setup problems are always worth writing about — that's on us.** Please don't decide a question isn't important enough to ask; we would much rather answer it than read a submission quietly compromised by something we could have fixed in five minutes.
+
 If something in this document is ambiguous, that's usually deliberate — make a call and write
 down why. **Except anything about scope. On scope, ask.**
 

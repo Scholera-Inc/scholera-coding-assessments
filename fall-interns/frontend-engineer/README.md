@@ -214,6 +214,8 @@ If something is actually broken, or you're blocked on hardware or setup, reply t
 much rather help than read a submission quietly compromised by a problem we could have fixed in
 five minutes.
 
+**Setup problems are always worth writing about — that's on us.** Please don't decide a question isn't important enough to ask; we would much rather answer it than read a submission quietly compromised by something we could have fixed in five minutes.
+
 ---
 
 **Build the small thing. Make it good. Tell us what you found — including what didn't work.**

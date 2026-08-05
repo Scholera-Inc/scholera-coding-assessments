@@ -413,6 +413,8 @@ layer, with its own error states, undo support and keyboard access.
 We would rather help than read a submission quietly compromised by a solvable constraint. Where
 this document is ambiguous, ask; we answer publicly to all candidates.
 
+**Setup problems are always worth writing about — that's on us.** Please don't decide a question isn't important enough to ask.
+
 ---
 
 ## 08 · How you will be scored

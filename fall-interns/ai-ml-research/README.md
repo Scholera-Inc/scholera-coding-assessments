@@ -223,6 +223,8 @@ with your own method, live.
 
 If something here is ambiguous, that's usually deliberate — make a call and write down why.
 
+**Setup problems are always worth writing about — that's on us.** Please don't decide a question isn't important enough to ask; we would much rather answer it than read a submission quietly compromised by something we could have fixed in five minutes.
+
 ---
 
 **The most valuable thing a researcher does is tell the team something they didn't want to hear,

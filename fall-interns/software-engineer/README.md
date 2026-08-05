@@ -220,6 +220,8 @@ If something is actually broken, or setup won't work, reply to the email that se
 assignment, or write to **proscio@scholera-inc.com**. That's our problem, and it shouldn't cost you any of your
 twelve hours.
 
+**Setup problems are always worth writing about — that's on us.** Please don't decide a question isn't important enough to ask; we would much rather answer it than read a submission quietly compromised by something we could have fixed in five minutes.
+
 ---
 
 **If you find a hole in your own work and can't fix it in time, write it up clearly.** That is a

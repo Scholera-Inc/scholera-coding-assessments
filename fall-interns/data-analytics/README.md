@@ -246,6 +246,8 @@ If something here is ambiguous, that's usually deliberate — make a call and wr
 If the data won't load, reply to the email that sent you this assignment, or write to
 **proscio@scholera-inc.com**. That's our problem.
 
+**Setup problems are always worth writing about — that's on us.** Please don't decide a question isn't important enough to ask; we would much rather answer it than read a submission quietly compromised by something we could have fixed in five minutes.
+
 ---
 
 **The most useful thing an analyst does is say "that's not a real result" before anyone builds a
