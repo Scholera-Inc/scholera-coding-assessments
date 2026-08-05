@@ -1,0 +1,49 @@
+{
+  "description": "Twelve quiz questions generated from lecture.json by each of three strategies. You are told which strategy produced which set. You are not told which is best.",
+  "source_lecture": "lec_02",
+  "strategies": {
+    "A": "Full context. The entire lecture was placed in the model's context window and it was asked for twelve questions.",
+    "B": "Retrieval. Relevant passages were retrieved first and questions were generated from those passages only.",
+    "C": "Generate then verify. Questions were generated, then a second pass asked the model to check each one against the source and discard any it could not support."
+  },
+  "sets": {
+    "A": [
+      { "id": "A01", "question": "What does the learning rate control in gradient descent?", "answer": "How far the parameters move on each update step." },
+      { "id": "A02", "question": "State the gradient descent update rule.", "answer": "w <- w - eta * grad_w L(w)" },
+      { "id": "A03", "question": "What is the maximum value of the derivative of the sigmoid function?", "answer": "0.25, attained at z = 0." },
+      { "id": "A04", "question": "Which optimiser did the lecture recommend as the best choice for all deep learning tasks?", "answer": "Adam." },
+      { "id": "A05", "question": "Why does the vanishing gradient problem get worse with depth?", "answer": "Backpropagation multiplies one activation derivative per layer, so sub-unit factors compound geometrically." },
+      { "id": "A06", "question": "What is the typical value of the momentum coefficient beta?", "answer": "0.9." },
+      { "id": "A07", "question": "According to the lecture, what batch size gives the best convergence for image classification?", "answer": "256." },
+      { "id": "A08", "question": "What is the dying ReLU problem?", "answer": "Units receiving consistently negative input have zero gradient permanently and never recover." },
+      { "id": "A09", "question": "What are the three variants of gradient descent by batch size?", "answer": "Batch, stochastic, and mini-batch." },
+      { "id": "A10", "question": "What does it indicate if training loss falls while validation loss rises?", "answer": "Overfitting, not an optimisation failure." },
+      { "id": "A11", "question": "In which year was backpropagation first published?", "answer": "1986." },
+      { "id": "A12", "question": "What is the Hadamard product used for in the backward pass?", "answer": "Elementwise multiplication when propagating delta through an activation derivative." }
+    ],
+    "B": [
+      { "id": "B01", "question": "What is the maximum value of sigma'(z) and where is it attained?", "answer": "0.25, at z = 0." },
+      { "id": "B02", "question": "Why is the derivative of the sigmoid bounded above by 0.25?", "answer": "Because sigma'(z) = sigma(z)(1 - sigma(z)), which is maximised when sigma(z) = 0.5." },
+      { "id": "B03", "question": "How much can a gradient shrink passing back through ten sigmoid layers?", "answer": "By roughly 0.25^10, about one in a million." },
+      { "id": "B04", "question": "What is the derivative of ReLU for a positive input?", "answer": "Exactly 1." },
+      { "id": "B05", "question": "Why does ReLU help with vanishing gradients?", "answer": "Its derivative is 1 for active units, so it does not attenuate the gradient during backpropagation." },
+      { "id": "B06", "question": "What is the consequence of vanishing gradients for the early layers of a network?", "answer": "They receive almost no signal and effectively stop learning." },
+      { "id": "B07", "question": "State the formula for the sigmoid derivative.", "answer": "sigma'(z) = sigma(z)(1 - sigma(z))" },
+      { "id": "B08", "question": "What causes the vanishing gradient problem?", "answer": "Saturating activation functions whose bounded derivatives compound multiplicatively through backpropagation." },
+      { "id": "B09", "question": "Which activation function was proposed as the mitigation for vanishing gradients?", "answer": "ReLU." },
+      { "id": "B10", "question": "What is the trade-off of using ReLU?", "answer": "The dying ReLU problem: permanently inactive units." },
+      { "id": "B11", "question": "What does ReLU output for a negative input?", "answer": "Zero." },
+      { "id": "B12", "question": "Why is the gradient largest around z = 0 for a sigmoid?", "answer": "That is where the curve is steepest, before it saturates in either direction." }
+    ],
+    "C": [
+      { "id": "C01", "question": "State the gradient descent update rule and explain the role of the negative sign.", "answer": "w <- w - eta * grad_w L(w). The gradient points uphill, so the negative sign moves the parameters downhill." },
+      { "id": "C02", "question": "Explain why the vanishing gradient problem is a function of depth rather than simply of network size.", "answer": "The attenuation compounds multiplicatively, one activation derivative per layer, so it is the number of layers a gradient traverses that determines the decay." },
+      { "id": "C03", "question": "What would you observe during training if the learning rate were set far too large?", "answer": "The loss oscillates or diverges, with each step landing higher than the last." },
+      { "id": "C04", "question": "Why is mini-batch gradient descent preferred over full-batch in practice?", "answer": "It trades some gradient accuracy for far better hardware utilisation and speed." },
+      { "id": "C05", "question": "How does momentum address the oscillation of plain gradient descent?", "answer": "It accumulates a running average of past gradients, damping oscillation across a valley while accelerating the consistent direction." },
+      { "id": "C06", "question": "Why does the storage requirement of the forward pass limit model size?", "answer": "Backpropagation reuses intermediate values from the forward pass, so they must all be retained, making memory rather than compute the binding constraint." },
+      { "id": "C07", "question": "Distinguish the diagnosis for a loss that is flat from the start versus one that explodes to NaN.", "answer": "Flat suggests a learning rate too small or vanishing gradients; exploding suggests a learning rate too large or exploding gradients, addressable with clipping." },
+      { "id": "C08", "question": "Explain why backpropagation is described as the chain rule with bookkeeping.", "answer": "Each layer's gradient term is local, depending only on values that layer already computed, so the chain rule can be applied systematically by reusing stored forward-pass values." }
+    ]
+  }
+}

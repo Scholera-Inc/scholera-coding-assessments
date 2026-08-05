@@ -1,0 +1,24 @@
+id,department_id,name
+prof_001,dep_eng,Professor 1
+prof_002,dep_eng,Professor 2
+prof_003,dep_eng,Professor 3
+prof_004,dep_eng,Professor 4
+prof_005,dep_eng,Professor 5
+prof_006,dep_eng,Professor 6
+prof_007,dep_cs,Professor 7
+prof_008,dep_cs,Professor 8
+prof_009,dep_cs,Professor 9
+prof_010,dep_cs,Professor 10
+prof_011,dep_cs,Professor 11
+prof_012,dep_bus,Professor 12
+prof_013,dep_bus,Professor 13
+prof_014,dep_bus,Professor 14
+prof_015,dep_bus,Professor 15
+prof_016,dep_bio,Professor 16
+prof_017,dep_bio,Professor 17
+prof_018,dep_bio,Professor 18
+prof_019,dep_bio,Professor 19
+prof_020,dep_hum,Professor 20
+prof_021,dep_hum,Professor 21
+prof_022,dep_hum,Professor 22
+prof_023,dep_hum,Professor 23

@@ -1,0 +1,6 @@
+id,institution_id,name
+dep_eng,inst_0001,Engineering
+dep_cs,inst_0001,Computer Science
+dep_bus,inst_0001,Business
+dep_bio,inst_0001,Life Sciences
+dep_hum,inst_0001,Humanities
