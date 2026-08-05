@@ -13,8 +13,8 @@ unreasonable standard.**
 |---|---|
 | **Role** | AI/ML Intern |
 | **Organisation** | Scholera |
-| **Due** | See the email that sent you this assignment |
-| **Effort** | ~10 days, part-time |
+| **Due** | **14 August 2026, 23:59 IST** |
+| **Effort** | Roughly 10 part-time days of work |
 | **Version** | 1.0 |
 
 > **Reference project** (open source — read it, do not clone it):
@@ -523,10 +523,10 @@ this assignment — with:
 
 > ### Deadline
 >
-> Your deadline is in the email that sent you this assignment. The commit timestamp at that
-> point is what we review — later commits are ignored, so **tag your submission**
-> (`git tag submission`). If something serious happens in your life, tell us before the
-> deadline rather than after; we are reasonable people and we will work with you.
+> **14 August 2026, 23:59 IST.** The commit timestamp at that point is what we review — later commits are ignored,
+> so **tag your submission** (`git tag submission`). If something serious happens in your life,
+> tell us before the deadline rather than after; we are reasonable people and we will work with
+> you.
 
 **Step 2 — The review call.** Shortlisted candidates get a **45-minute call** within a week of
 the deadline: a live demo by you (10 min), a code walkthrough where **we** pick the files
@@ -539,6 +539,10 @@ always the two hardest questions we ask.
 ## 11 · A suggested ten days
 
 *Advisory, not mandatory. But note where the metrics layer sits.*
+
+If you have fewer calendar days than this before the deadline, compress the early days rather
+than the late ones. **Day 5 is the one to protect** — instrumentation added at the end is
+obvious, and Sections 5 and the report together carry more marks than the canvas itself.
 
 | Days | Focus | Aim to end with |
 |---|---|---|

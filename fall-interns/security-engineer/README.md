@@ -185,6 +185,8 @@ reproduce on demand counts against you.**
 Send the repo link to **proscio@scholera-inc.com**, or reply to the email that sent you this assignment.
 Check the video opens in a private browser window.
 
+**Deadline: 14 August 2026, 23:59 IST.** Later commits are ignored, so if you finish early just send it.
+
 ---
 
 ## The video — please take this seriously
